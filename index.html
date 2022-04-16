@@ -13,32 +13,32 @@
  </head>
  
  <body>
-    <div class="container bg-light">
+    <div class="container bg-light mb-0">
     <!-- Acá va un Navbar --> 
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="javascript:void(0)">Codo a Codo</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <div class="container mb-0">
+                <a class="navbar-brand" href="#">Codo a Codo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 
                 <div class="collapse navbar-collapse" id="mynavbar">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0)">Inicio</a>
+                            <a class="nav-link" href="#">Inicio</a>
                         </li>
                     
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0)">Link</a>
+                            <a class="nav-link" href="#">Link</a>
                         </li>
                     
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="javascript:void(0)">Desactivado</a>
+                            <a class="nav-link disabled" href="#">Desactivado</a>
                         </li>
                     </ul>
                     
                     <form class="d-flex">
-                        <input class="form-control me-2" type="text" placeholder="Buscar">
+                        <input class="form-control me-2 mb-0" type="text" placeholder="Buscar">
                         <button class="btn btn-outline-success" type="button">Buscar</button>
                     </form>
                 </div>
@@ -46,7 +46,7 @@
         </nav>
     
     <!-- Acá van 3 cards --> 
-    <div class="container mt-3">
+    <div class="container mt-3 mb-0">
         <div class="row">
             <div class="col p-3">
                 <div class="card bg-light">
@@ -56,7 +56,7 @@
                         Contenido de Card
                         <br>
                         <br>
-                        Ultima actualizacion 1
+                        <p class="text-black-50">Ultima actualizacion 1</p>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
                         Contenido de Card
                         <br>
                         <br>
-                        Ultima actualizacion 1
+                        <p class="text-black-50">Ultima actualizacion 1</p>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                     Contenido de Card
                     <br>
                     <br>
-                    Ultima actualizacion 1
+                    <p class="text-black-50">Ultima actualizacion 1</p>
                     </div>
                 </div>
             </div>
@@ -94,29 +94,28 @@
  
  
      <!-- Acá va un formulario --> 
-     
-     <div class="container">
+     <div class="container mt-0 mb-3">
         <form>
-            <div class="mb-3 mt-3">
-                <label for="email" class="form-label bg-light">Email:</label>
-                <input type="email" class="form-control bg-light" id="email" name="email">
-                <h6>Nunca comparta su email</h6>
-            </div>
-            
-            <div class="mb-3">
-                <label for="pwd" class="form-label bg-light">Contraseña:</label>
-                <input type="psw" class="form-control bg-light" id="pwd" name="pswd">
-            </div>
-            
-            <div class="form-check mb-3">
-                <label class="form-check-label">
-                <input class="form-check-input bg-light" type="checkbox" name="remember"> Verificar
-                </label>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-    </div>
-
+                <div class="mb-3 mt-0">
+                    <label for="email" class="form-label bg-light">Email:</label>
+                    <input type="email" class="form-control bg-light" id="email" name="email">
+                    <p class="text-black-50">Nunca comparta su email</p>
+                    
+                </div>
+                
+                <div class="mb-3">
+                    <label for="pwd" class="form-label bg-light">Contraseña:</label>
+                    <input type="psw" class="form-control bg-light" id="pwd" name="pswd">
+                </div>
+                
+                <div class="form-check mb-3">
+                    <label class="form-check-label">
+                    <input class="form-check-input bg-light" type="checkbox" name="remember"> Verificar
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
 <script
 src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-
